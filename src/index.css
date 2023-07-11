@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #f9f06b;
+  --secondary: #1e1e1e;
+
+  --cardBG: rgba(30, 30, 30, 0.48);
+  --text: #fff;
+  --grey-text: rgba(255, 255, 255, 0.56);
+  --background: #000;
+  --accent: #f49871;
+  --dark-tint: #141414;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+/* Scrollbar */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #303030 #000000;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: var(--background);
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: var(--background);
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #303030;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #303030;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #303030;
+}
+
+/* Text Styling */
+.text-18-500 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text-32-500 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.text-48-500 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.text-48-600 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.text-16-500 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.text-16-400 {
+  color: var(--grey-text);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.text-20-600 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text-36-600 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.text-22-600 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.text-14-500 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text-24-400 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 750px) {
+  .text-36-600 {
+    font-size: 22px;
+  }
+
+  .text-16-400 {
+    font-size: 12px;
+  }
+
+  .text-18-500 {
+    font-size: 14px;
+  }
+
+  .text-48-600 {
+    font-size: 32px;
+  }
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}

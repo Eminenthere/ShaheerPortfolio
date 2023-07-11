@@ -1,0 +1,14 @@
+.lang-tech-wrapper {
+  margin: 100px 0;
+  padding: 0 24px;
+}
+
+.lang-tech-wrapper .text-48-600 {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 750px) {
+  .lang-tech-wrapper {
+    padding: 0 16px;
+  }
+}

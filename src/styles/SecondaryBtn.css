@@ -1,0 +1,22 @@
+.secondary-btn {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--cardBG);
+  padding: 16px 24px;
+  color: var(--text);
+}
+
+.secondary-btn:hover {
+  background-color: var(--secondary);
+}
+
+@media screen and (max-width: 800px) {
+  .secondary-btn span {
+    display: none;
+  }
+}

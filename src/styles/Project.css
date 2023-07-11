@@ -1,0 +1,11 @@
+.projects-wrapper {
+  margin-top: 100px;
+  padding: 0 24px;
+}
+
+@media screen and (max-width: 750px) {
+  .projects-wrapper {
+    margin-top: 80px;
+    padding: 0 16px;
+  }
+}

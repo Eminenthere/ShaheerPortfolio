@@ -1,0 +1,21 @@
+.lang-tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 24px;
+}
+
+.lang-tech-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  height: 130px;
+  border-radius: 12px;
+  background: var(--cardBG);
+}
+
+@media screen and (max-width: 750px) {
+  .lang-tech-grid {
+    grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
+  }
+}

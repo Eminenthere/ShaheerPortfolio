@@ -1,0 +1,10 @@
+.dsa-wrapper {
+  padding: 0 24px;
+}
+
+.dsa-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}

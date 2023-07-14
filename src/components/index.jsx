@@ -10,6 +10,10 @@ import SecondaryBtn from './SecondaryBtn'
 import DevelopmentProjects from './DevelopmentProjects'
 import DesignProjects from './DesignProjects'
 import LanguageTechArray from './LanguageTechArray'
+import About from './About'
+import Footer from './Footer'
+import Navbar from './Navbar'
+import NavLinks from './NavLinks'
 
 export {
   Hero,
@@ -24,4 +28,8 @@ export {
   DevelopmentProjects,
   DesignProjects,
   LanguageTechArray,
+  About,
+  Footer,
+  Navbar,
+  NavLinks,
 }

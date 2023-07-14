@@ -222,3 +222,24 @@ export const TechArray = [
       'https://res.cloudinary.com/dqxezoulc/image/upload/v1686546009/Icons%20-%20Portfolio%20Shaheer/postgresql_ci3bu7.svg',
   },
 ]
+
+export const NavLinkArray = [
+  {
+    id: 1,
+    name: 'Twitter Link',
+    icon: 'https://res.cloudinary.com/dqxezoulc/image/upload/v1689299825/Icons%20-%20Portfolio%20Shaheer/twitterIcon_lurs2c.svg',
+    link: 'https://twitter.com/Eminentishere',
+  },
+  {
+    id: 2,
+    name: 'Github Link',
+    icon: 'https://res.cloudinary.com/dqxezoulc/image/upload/v1689300407/Icons%20-%20Portfolio%20Shaheer/Github_-_Original_ezefhc.svg',
+    link: 'https://github.com/Eminenthere',
+  },
+  {
+    id: 3,
+    name: 'LinkedIn Link',
+    icon: 'https://res.cloudinary.com/dqxezoulc/image/upload/v1689299861/Icons%20-%20Portfolio%20Shaheer/linkedInIcon_chbyak.svg',
+    link: 'https://www.linkedin.com/in/eminentishere/',
+  },
+]

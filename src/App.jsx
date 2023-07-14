@@ -1,8 +1,11 @@
 import {
+  About,
   DataStructureAlgorithm,
   Hero,
   LanguageTechnologies,
   Project,
+  Footer,
+  Navbar,
 } from './components'
 import Lottie from 'lottie-react'
 import LoadingBlock from './assets/lottie/loadingblocks.json'
@@ -24,7 +27,7 @@ function App() {
       {loading ? (
         <div>
           <Hero /> <Project /> <LanguageTechnologies />
-          <DataStructureAlgorithm />
+          <DataStructureAlgorithm /> <About /> <Footer /> <Navbar />
         </div>
       ) : (
         <section className='lottie-load'>

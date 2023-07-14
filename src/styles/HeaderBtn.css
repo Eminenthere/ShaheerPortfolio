@@ -30,6 +30,10 @@
   box-shadow: none;
 }
 
+.logo-btn a {
+  line-height: 0;
+}
+
 @media screen and (max-width: 870px) {
   .nav-btn {
     gap: 0;

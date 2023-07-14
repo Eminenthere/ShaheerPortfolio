@@ -1,0 +1,20 @@
+.navbar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: var(--secondary);
+  position: fixed;
+  left: 50%;
+  bottom: 48px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+@media screen and (max-width: 560px) {
+  .navbar {
+    bottom: 16px;
+  }
+}

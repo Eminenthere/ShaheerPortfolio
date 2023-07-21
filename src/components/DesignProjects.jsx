@@ -41,7 +41,7 @@ const DesignProjects = () => {
 
                 <SecondaryBtn
                   icon={DesignIcon}
-                  value={'Dribbble'}
+                  value={'Behance'}
                   link={source}
                 />
               </div>

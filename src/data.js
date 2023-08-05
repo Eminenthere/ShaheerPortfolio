@@ -8,6 +8,28 @@ export const heroIntro = [
 export const developmentData = [
   {
     id: 1,
+    img: 'https://res.cloudinary.com/dqxezoulc/image/upload/v1689918219/Images%20-%20Portfolio%20Shaheer/futureharvest.webp',
+    link: 'https://futureharvest.sa/',
+    title: 'Future Harvest',
+    tag1: 'Product',
+    tag2: 'React',
+    tag3: 'Front-End',
+    duration: '1 weeks',
+  },
+  {
+    id: 2,
+    img: 'https://res.cloudinary.com/dqxezoulc/image/upload/v1691279719/Images%20-%20Portfolio%20Shaheer/faraway_vhw3ee.webp',
+    link: 'https://travel-app-github.netlify.app/',
+    title: 'Far Away',
+    tag1: 'To-do',
+    tag2: 'React',
+    tag3: 'Front-end',
+    duration: '24 hours',
+    source: 'https://github.com/Eminenthere/FarAway',
+  },
+
+  {
+    id: 3,
     img: 'https://res.cloudinary.com/dqxezoulc/image/upload/v1689048946/Images%20-%20Portfolio%20Shaheer/pizzamenuopt_evxkvy.webp',
     link: 'https://pizzasmenu.netlify.app/',
     title: 'Pizza Menu',
@@ -16,17 +38,6 @@ export const developmentData = [
     tag3: 'Front-end',
     duration: '1 hour',
     source: 'https://github.com/Eminenthere/PizzaMenu/tree/main',
-  },
-
-  {
-    id: 2,
-    img: 'https://res.cloudinary.com/dqxezoulc/image/upload/v1689918219/Images%20-%20Portfolio%20Shaheer/futureharvest.webp',
-    link: 'https://futureharvest.sa/',
-    title: 'Future Harvest',
-    tag1: 'Product',
-    tag2: 'React',
-    tag3: 'Front-End',
-    duration: '1 weeks',
   },
 ]
 

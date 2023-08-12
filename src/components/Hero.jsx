@@ -19,7 +19,11 @@ const NavCTAButtons = () => {
   return (
     <nav className='top-btns'>
       <LogoBtn icon={<LogoIcon />} value={'Shaheer.'} />
-      <DownloadBtn icon={<DownloadIcon />} value={'Download'} link={Resume} />
+      <DownloadBtn
+        icon={<DownloadIcon />}
+        value={'Download CV'}
+        link={Resume}
+      />
     </nav>
   )
 }
